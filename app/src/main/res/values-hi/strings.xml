@@ -1,0 +1,125 @@
+
+
+<resources >
+
+
+    <string name="hello_world">नमस्ते दुनिया!</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_activity_menuscreen">आसान किसान</string>
+    <string name="ham">h</string>
+    <string name="bill">बिलिंग</string>
+    <string name="order">आदेश</string>
+    <string name="close">समाप्ति के समय बकाया</string>
+    <string name="sale">बिक्री ग्राफ</string>
+    <string name="title_activity_createlisting">createlisting</string>
+    <string name="title_activity_orders">आदेश</string>
+    <string name="news">समाचार</string>
+    <string name="buy">एक उत्पाद खरीदें</string>
+    <string name="voice">निजी सहायक</string>
+    <string name="sell">फसल बेचते हैं</string>
+    <string name="my_activity">मेरी गतिविधि</string>
+    <string name="budget">बड की गणनाt</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="extrafeature">अतिरिक्त सुविधा</string>
+    <string name="predict">रोग का पूर्वानुमान</string>
+
+    <array name="Croppp">
+        <item>एक फसल का चयन करें</item>
+        <item>धान</item>
+        <item>गेहूँ</item>
+        <item>मक्का</item>
+        <item>गन्ना</item>
+        <item>दलहन</item>
+
+    </array>
+    <!--
+        Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+        It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+        or something similar.
+   -->
+    <string name="app_name">आसान किसान</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+
+    <string name="action_map">मानचित्र का स्थान</string>
+    <string name="action_share">शेयर</string>
+
+    <!-- Menu label to fetch updated weather info from the server -->
+    <string name="action_refresh" translatable="false">ताज़ा करना</string>
+    <string name="title_activity_detail">विवरण</string>
+    <string name="title_activity_settings">सेटिंग्स</string>
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">स्थान</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">स्थान</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+    <string name="pref_enable_notifications_label">मौसम की सूचनाएं</string>
+
+    <string name="pref_enable_notifications_true">सक्रिय</string>
+    <string name="pref_enable_notifications_false">सक्षम नहीं</string>
+    <string name="pref_enable_notifications_default" translatable="false">सच</string>
+
+    <!-- Strings for formatting weather-related data -->
+
+    <!-- Label for the temperature units preference [CHAR LIMIT=30] -->
+    <string name="pref_units_label">तापमान इकाइयाँ</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_metric">मीट्रिक</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_imperial">शाही</string>
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->    <string name="pref_units_key" translatable="false">इकाइयों</string>
+
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_metric" translatable="false">मीट्रिक</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_imperial" translatable="false">शाही</string>
+
+
+    <!-- Language-specific constants -->
+    <string name="today">आज</string>
+
+    <!-- For labelling tomorrow's forecast [CHAR LIMIT=15] -->
+    <string name="tomorrow">आने वाला कल</string>
+
+    <!-- Date format [CHAR LIMIT=NONE] -->
+
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification</string>
+    <string name="title_activity_forum">मंच</string>
+    <string name="weather">मौसम पूर्वानुमान</string>
+    <string name="forum">मंच</string>
+    <string name="weathers">मौसम पूर्वानुमान</string>
+    <string name="listing">सूची बनाना</string>
+    <string name="Enter_Amount">राशी डालें</string>
+    <string name="Enter_Kilograms">किलोग्राम दर्ज करें</string>
+    <string name="Enter_Location">स्थान दर्ज करें</string>
+    <string name="Create">सर्जन करना</string>
+    <string name="userName">ईमेल</string>
+    <string name="password">पारण शब्द</string>
+    <string name="assistant">व्यक्तिगत सहायक को सक्रिय करने के लिए बटन पर क्लिक करें</string>
+    <string name="Response">प्रतिक्रिया</string>
+    <string name="navigate">किसान को नेविगेट करें?</string>
+    <string name="Name">नाम</string>
+    <string name="Phone">फ़ोन</string>
+    <string name="Email">ईमेल</string>
+    <string name="No_news">कोई खबर नहीं!!</string>
+    <string name="Yes">हाँ</string>
+    <string name="No">नहीं</string>
+    <string name="crop_not_found">दर्ज की गई फसल अभी तक अपडेट नहीं हुई है !!</string>
+</resources>

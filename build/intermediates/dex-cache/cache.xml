@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/manthanmkulakarni/.android/build-cache/5525a61c9f07f680e29dff897c4666f181346b3b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/Users/manthanmkulakarni/Desktop/hackathonFarmersApp-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49de9ac24114b58f2d9b98dbab6c00d0454897f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manthanmkulakarni/.android/build-cache/13580f34926e6b8f605892c5a0f78c6c86464bc3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/Users/manthanmkulakarni/Desktop/hackathonFarmersApp-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a30a030a725014a0df5e5e5ccc5b29997de54d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/manthanmkulakarni/.android/build-cache/ca06bff9023b1058d099e5e0a5860971f0e3d900/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/Users/manthanmkulakarni/Desktop/hackathonFarmersApp-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d3d887f9cbe880d9d4c5ffea190d00cf360ef06a/classes.dex" />
+    </item>
+
+</items>

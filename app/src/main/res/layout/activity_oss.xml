@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff71c2ff"
+    android:fitsSystemWindows="true"
+    android:onClick="c">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="56dp"
+        android:weightSum="1">
+
+        <!-- Email Label -->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/ftype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type of job"
+            app:met_baseColor="#fffffbf9"
+            app:met_errorColor="#ffff7064"
+            app:met_floatingLabel="normal"
+            app:met_maxCharacters="25"
+            app:met_minCharacters="0"
+            android:inputType="text"
+            app:met_primaryColor="#ff46e358"
+            app:met_textColorHint="#ffdfdbd9"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="314dp"
+            android:layout_height="41dp"
+            android:layout_below="@+id/ftype"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#000000"
+            android:dropDownWidth="wrap_content"
+            android:entries="@array/Gender"
+            android:popupBackground="#ffffff"
+            android:spinnerMode="dropdown"></Spinner>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age (range)"
+            app:met_baseColor="#fffffbf9"
+
+            app:met_errorColor="#ffff7064"
+            app:met_floatingLabel="normal"
+            app:met_maxCharacters="25"
+            app:met_minCharacters="0"
+            app:met_primaryColor="#ff46e358"
+            app:met_textColorHint="#ffdfdbd9"
+
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Enter_Location"
+            app:met_baseColor="#fffffbf9"
+
+            app:met_errorColor="#ffff7064"
+            app:met_floatingLabel="normal"
+            app:met_maxCharacters="25"
+            app:met_minCharacters="0"
+            app:met_primaryColor="#ff46e358"
+            app:met_textColorHint="#ffdfdbd9"
+
+            />
+
+
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/sign"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:onClick="c"
+            android:text="@string/Create"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            custom:pb_colorComplete="@color/green_complete"
+            custom:pb_colorError="@color/red_error"
+            custom:pb_colorNormal="@color/blue_normal"
+            custom:pb_colorPressed="@color/blue_pressed"
+            custom:pb_colorProgress="@color/purple_progress"
+            custom:pb_textComplete="Success"
+            custom:pb_textError="Error"
+            custom:pb_textProgress="Loading" />
+
+    </LinearLayout>
+</ScrollView>
